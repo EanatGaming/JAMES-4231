@@ -1,0 +1,53 @@
+body {
+  background:#0e0e0e;
+  color:white;
+  text-align:center;
+  font-family:Arial, sans-serif;
+}
+
+canvas {
+  background:#222;
+  border:3px solid white;
+  display:block;
+  margin:20px auto;
+}
+
+.ui, .energy {
+  width:900px;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+}
+
+.bar {
+  width:45%;
+  height:18px;
+  background:#444;
+  border:1px solid white;
+}
+
+.bar div {
+  height:100%;
+  width:100%;      
+  background:lime;
+}
+
+.energy {
+  width:900px;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+}
+
+.energy div {
+  height:12px;
+  background:linear-gradient(to right, orange, red);
+}
+
+
+#modeSelect button {
+  font-size:24px;
+  padding:15px 30px;
+  margin:10px;
+  cursor:pointer;
+}

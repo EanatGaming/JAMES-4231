@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Stickman Fighter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>⚔️ Stickman Fighter ⚔️</h1>
+
+<div id="modeSelect">
+  <button onclick="startGame('single')">🧍 Single Player</button>
+  <button onclick="startGame('multi')">👥 Multiplayer</button>
+</div>
+
+<canvas id="game" width="900" height="450"></canvas>
+
+<div class="ui">
+  <div class="bar"><div id="p1hp"></div></div>
+  <div class="bar"><div id="p2hp"></div></div>
+</div>
+<div class="energy">
+  <div id="p1en"></div>
+  <div id="p2en"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
